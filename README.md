@@ -34,12 +34,16 @@ Database - use any - ideally, there will be an implementation for MongoDB and Po
 
 ## Languages used in this repo
 
+* Empty - not done
+* `I` - in progress
+* `X` - done
+
 | Language | MongoDb | PostgreSQL |
 |---|---|---|
 | NodeJS      | X |   |
 | Go          | X |   |
-| Python      |   |   |
-| F#          |   |   |
+| Python      | I |   |
+| F#          | I |   |
 | Java        |   |   |
 | C#          |   |   |
 | C++         |   |   |
