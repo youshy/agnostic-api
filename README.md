@@ -36,6 +36,8 @@ Database - use any - ideally, there will be an implementation for MongoDB and Po
 
 * NodeJS
 
+* Go
+
 ## Can I add my own submission?
 
 Create a pull request with your language submission according to the model. Everything should be contained in one file - it's not the best practice, but for now I think it'll work just fine!
