@@ -41,3 +41,5 @@ Database - use any - ideally, there will be an implementation for MongoDB and Po
 Create a pull request with your language submission according to the model. Everything should be contained in one file - it's not the best practice, but for now I think it'll work just fine!
 
 Create a folder with your language name in the root directory and within that add `Index.<extension>`. This way there will be a possibility to extend every API to work with proper architecture.
+
+All APIs should be using port `3000`
