@@ -66,7 +66,7 @@ app.put('/user', (req, res) => {
   })
 })
 
-app.delete('/user/', (req, res) => {
+app.delete('/user', (req, res) => {
   User.deleteOne({
     firstname: req.query.firstname,
     lastname: req.query.lastname
