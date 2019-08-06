@@ -38,22 +38,22 @@ Database - use any - ideally, there will be an implementation for MongoDB and Po
 * `I` - in progress
 * `X` - done
 
-| Language | MongoDb | PostgreSQL |
+| Language | MongoDb | PostgreSQL | Notes |
 |---|---|---|
-| NodeJS      | X |   |
-| Go          | X |   |
-| Python      | I |   |
-| F#          | I |   |
-| Java        |   |   |
-| C#          |   |   |
-| C++         |   |   |
-| Rust        |   |   |
-| PHP         |   |   |
-| Ruby        |   |   |
-| Haskell     |   |   |
-| Objective-C |   |   |
-| Clojure     |   |   |
-| Elixir      |   |   |
+| NodeJS      | X |   |   |
+| Go          | X |   |   |
+| Python      | I |   | (On hold as I want to explore it a bit more)    | 
+| F#          | I |   |   | 
+| Java        |   |   |   |   
+| C#          |   |   |   |
+| C++         |   |   |   |
+| Rust        |   |   |   |
+| PHP         |   |   |   |
+| Ruby        |   |   |   |
+| Haskell     |   |   |   |
+| Objective-C |   |   |   |
+| Clojure     |   |   |   |
+| Elixir      |   |   |   |
 
 ## Can I add my own submission?
 
