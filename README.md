@@ -39,7 +39,7 @@ Database - use any - ideally, there will be an implementation for MongoDB and Po
 * `X` - done
 
 | Language | MongoDb | PostgreSQL | Notes |
-|---|---|---|
+|---|---|---|---|
 | NodeJS      | X |   |   |
 | Go          | X |   |   |
 | Python      | I |   | (On hold as I want to explore it a bit more)    | 
