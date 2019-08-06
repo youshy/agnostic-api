@@ -56,6 +56,7 @@ Database - use any - ideally, there will be an implementation for MongoDB and Po
 | Elixir      |   |   |   |
 | Scala       |   |   |   |
 | C           |   |   |   |
+| Lua         |   |   |   |
 
 ## Can I add my own submission?
 
