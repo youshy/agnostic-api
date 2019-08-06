@@ -54,6 +54,8 @@ Database - use any - ideally, there will be an implementation for MongoDB and Po
 | Objective-C |   |   |   |
 | Clojure     |   |   |   |
 | Elixir      |   |   |   |
+| Scala       |   |   |   |
+| C           |   |   |   |
 
 ## Can I add my own submission?
 
