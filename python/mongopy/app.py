@@ -8,7 +8,6 @@ app = Flask(__name__)
 #MongoDB setup
 app.config['MONGO_URI'] = 'mongodb://localhost:27017/mydb'
 mongo = PyMongo(app)
-collection = mongo.db
 
 class JSONEncoder(json.JSONEncoder):
     ''' extend json-encoder class'''
@@ -27,5 +26,16 @@ app.json_encoder = JSONEncoder
 def get_users():
     resp = [doc for doc in mongo.db.users.find()]
     return jsonify(resp)
+
+#Get particular user
+@app.route('/user')
+def get_one_user():
+    firstname = request.args.get('firstname')
+    lastname = request.args.get('lastname')
+    user = mongo.db.users.find_one({
+        'firstname': firstname,
+        'lastname': lastname
+    })
+    return jsonify(user)
 
 app.run(port=3000)
