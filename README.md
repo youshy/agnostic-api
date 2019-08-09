@@ -42,8 +42,8 @@ Database - use any - ideally, there will be an implementation for MongoDB and Po
 |---|---|---|---|
 | NodeJS      | X |   |   |
 | Go          | X |   |   |
-| Python      | I |   | (On hold as I want to explore it a bit more)    | 
-| F#          | I |   |   | 
+| Python      | X |   |   | 
+| F#          | I |   | (Small issues) | 
 | Java        |   |   |   |   
 | C#          |   |   |   |
 | C++         |   |   |   |
