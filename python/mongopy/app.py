@@ -50,4 +50,22 @@ def add_user():
     mongo.db.users.insert_one(new_user)
     return "added new user to the db"
 
+#Update user
+@app.route('/user', methods=['PUT'])
+def update_user():
+    firstname = request.args.get('firstname')
+    lastname = request.args.get('lastname')
+    request_data = request.get_json()
+    mongo.db.users.update_one({
+        'firstname': firstname,
+        'lastname': lastname
+    }, {
+        '$set': {
+            'firstname': request_data['firstname'],
+            'lastname': request_data['lastname'],
+            'age': request_data['age']
+        }
+    })
+    return "updated user"
+
 app.run(port=3000)
