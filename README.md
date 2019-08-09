@@ -49,7 +49,7 @@ Database - use any - ideally, there will be an implementation for MongoDB and Po
 | C++         |   |   |   |
 | Rust        |   |   |   |
 | PHP         | I |   |   |
-| Ruby        |   |   |   |
+| Ruby        | I |   |   |
 | Haskell     |   |   |   |
 | Objective-C |   |   |   |
 | Clojure     |   |   |   |
