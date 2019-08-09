@@ -68,4 +68,15 @@ def update_user():
     })
     return "updated user"
 
+#Delete user
+@app.route('/user', methods=['DELETE'])
+def delete_user():
+    firstname = request.args.get('firstname')
+    lastname = request.args.get('lastname')
+    mongo.db.users.delete_one({
+        'firstname': firstname,
+        'lastname': lastname
+    })
+    return "deleted user"
+
 app.run(port=3000)
