@@ -47,7 +47,7 @@ Database - use any - ideally, there will be an implementation for MongoDB and Po
 | Java        |   |   |   |   
 | C#          |   |   |   |
 | C++         |   |   |   |
-| Rust        |   |   |   |
+| Rust        | I |   |   |
 | PHP         | I |   |   |
 | Ruby        | I |   |   |
 | Haskell     |   |   |   |
