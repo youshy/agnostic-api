@@ -38,4 +38,16 @@ def get_one_user():
     })
     return jsonify(user)
 
+#Add new user
+@app.route('/user', methods=['POST'])
+def add_user():
+    request_data = request.get_json()
+    new_user = {
+        "firstname": request_data["firstname"],
+        "lastname": request_data["lastname"],
+        "age": request_data["age"]
+    }
+    mongo.db.users.insert_one(new_user)
+    return "added new user to the db"
+
 app.run(port=3000)
