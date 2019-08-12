@@ -18,17 +18,17 @@ public class UserController {
         return userService.findAll();
     }
 
-    @GetMapping("/user")
+    @GetMapping("/users")
     List<User> readOneUser(@RequestParam String firstname, @RequestParam String lastname) {
         return userService.findByFirstnameAndLastname(firstname, lastname);
     }
 
-    @PostMapping("/user")
+    @PostMapping("/users")
     User createUser(@RequestBody User user) {
         return userService.save(user);
     }
 
-    @PutMapping("/user")
+    @PutMapping("/users")
     User updateUser(@RequestParam String firstname, @RequestParam String lastname, @RequestBody User user) {
         List usersList = userService.findByFirstnameAndLastname(firstname, lastname);
         User userToUpdate = (User) usersList.iterator().next();
@@ -38,7 +38,7 @@ public class UserController {
         return userService.save(userToUpdate);
     }
 
-    @DeleteMapping("/user")
+    @DeleteMapping("/users")
     void deleteUser(@RequestParam String firstname, @RequestParam String lastname) {
         List usersList = userService.findByFirstnameAndLastname(firstname, lastname);
         User userToDelete = (User) usersList.iterator().next();

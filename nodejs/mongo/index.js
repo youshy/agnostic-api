@@ -28,7 +28,7 @@ app.get('/users', async (req, res) => {
   res.status(200).json(users)
 })
 
-app.get('/user', async (req, res) => {
+app.get('/users', async (req, res) => {
   const user = await User.findOne({
     firstname: req.query.firstname,
     lastname: req.query.lastname
@@ -37,7 +37,7 @@ app.get('/user', async (req, res) => {
   res.status(200).json(user)
 })
 
-app.post('/user', async (req, res) => {
+app.post('/users', async (req, res) => {
   const {firstname, lastname, age} = req.body
 
   const newUser = {
@@ -51,7 +51,7 @@ app.post('/user', async (req, res) => {
   res.status(200).send("new user has been saved")
 })
 
-app.put('/user', (req, res) => {
+app.put('/users', (req, res) => {
   User.findOne({
     firstname: req.query.firstname,
     lastname: req.query.lastname
@@ -66,7 +66,7 @@ app.put('/user', (req, res) => {
   })
 })
 
-app.delete('/user', (req, res) => {
+app.delete('/users', (req, res) => {
   User.deleteOne({
     firstname: req.query.firstname,
     lastname: req.query.lastname
