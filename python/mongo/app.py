@@ -28,7 +28,7 @@ def get_users():
     return jsonify(resp)
 
 #Get particular user
-@app.route('/user')
+@app.route('/users')
 def get_one_user():
     firstname = request.args.get('firstname')
     lastname = request.args.get('lastname')
@@ -39,7 +39,7 @@ def get_one_user():
     return jsonify(user)
 
 #Add new user
-@app.route('/user', methods=['POST'])
+@app.route('/users', methods=['POST'])
 def add_user():
     request_data = request.get_json()
     new_user = {
@@ -51,7 +51,7 @@ def add_user():
     return "added new user to the db"
 
 #Update user
-@app.route('/user', methods=['PUT'])
+@app.route('/users', methods=['PUT'])
 def update_user():
     firstname = request.args.get('firstname')
     lastname = request.args.get('lastname')
@@ -69,7 +69,7 @@ def update_user():
     return "updated user"
 
 #Delete user
-@app.route('/user', methods=['DELETE'])
+@app.route('/users', methods=['DELETE'])
 def delete_user():
     firstname = request.args.get('firstname')
     lastname = request.args.get('lastname')

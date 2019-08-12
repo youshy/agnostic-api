@@ -20,13 +20,13 @@ Routes:
 
 **GET** `/users` - Gets all the users
 
-**GET** `/user/?firstname={firstname}&lastname={lastname}` - Gets user with `firstname` and `lastname`
+**GET** `/users/?firstname={firstname}&lastname={lastname}` - Gets user with `firstname` and `lastname`
 
-**POST** `/user` - Create a new user
+**POST** `/users` - Create a new user
 
-**PUT** `/user/?firstname={firstname}&lastname={lastname}` - Update a user with `firstname` and `lastname`
+**PUT** `/users/?firstname={firstname}&lastname={lastname}` - Update a user with `firstname` and `lastname`
 
-**DELETE** `/user/?firstname={firstname}&lastname={lastname}` - Delete a user with `firstname` and `lastname`
+**DELETE** `/users/?firstname={firstname}&lastname={lastname}` - Delete a user with `firstname` and `lastname`
 
 I know the routes are a bit sketchy now, but let's keep them like this. The goal of this repo is to cover as much ground as possible.
 
