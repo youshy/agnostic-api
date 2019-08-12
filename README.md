@@ -44,7 +44,7 @@ Routes are specifically designed to not to use `Id`. This gives an extra flavour
 
 To get all the phases done it'll probably take some time but - that's a long-term project here as well.
 
-There might be a case, that phases **I** - **III** will happen all at the same time - to monitor the performance from the very start.
+There might be a case, that phases **I** - **III** will happen all at the same time - to monitor the performance from the very start. And also - phases might differ from language to language - it might happen, that writing CRUD API in one of the languages belwo might be impossible to do - then, the phases will move.
 
 ## Languages used in this repo
 
