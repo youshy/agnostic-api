@@ -44,7 +44,7 @@ Database - use any - ideally, there will be an implementation for MongoDB and Po
 | Go          | X |   |   |
 | Python      | X |   |   | 
 | F#          | I |   | (Small issues) | 
-| Java        |   |   |   |   
+| Java        | X |   |   |   
 | C#          |   |   |   |
 | C++         |   |   |   |
 | Rust        | I |   |   |
