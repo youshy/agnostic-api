@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{D27E9B08-AC87-4ED7-BA77-A256149580E1}|Default">
+  <MonoDevelop.Ide.ItemProperties.mongo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="mongo/Controllers/UsersController.cs">
+    <Files>
+      <File FileName="mongo/Properties/launchSettings.json" Line="29" Column="2" />
+      <File FileName="mongo/appsettings.json" Line="2" Column="25" />
+      <File FileName="mongo/Models/UsersDatabaseSettings.cs" Line="8" Column="47" />
+      <File FileName="mongo/Startup.cs" Line="37" Column="49" />
+      <File FileName="mongo/mongo.csproj" Line="23" Column="1" />
+      <File FileName="mongo/Services/UserService.cs" Line="25" Column="1" />
+      <File FileName="mongo/Controllers/UsersController.cs" Line="8" Column="13" />
+      <File FileName="mongo/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="mongo/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="mongo" expanded="True">
+            <Node name="mongo" expanded="True" selected="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,13 @@
+/Users/arturkondas/Desktop/git/agnostic-api/csharp/mongo/mongo/bin/Debug/netcoreapp2.2/mongo.deps.json
+/Users/arturkondas/Desktop/git/agnostic-api/csharp/mongo/mongo/bin/Debug/netcoreapp2.2/mongo.runtimeconfig.json
+/Users/arturkondas/Desktop/git/agnostic-api/csharp/mongo/mongo/bin/Debug/netcoreapp2.2/mongo.runtimeconfig.dev.json
+/Users/arturkondas/Desktop/git/agnostic-api/csharp/mongo/mongo/bin/Debug/netcoreapp2.2/mongo.dll
+/Users/arturkondas/Desktop/git/agnostic-api/csharp/mongo/mongo/bin/Debug/netcoreapp2.2/mongo.pdb
+/Users/arturkondas/Desktop/git/agnostic-api/csharp/mongo/mongo/obj/Debug/netcoreapp2.2/mongo.csproj.CoreCompileInputs.cache
+/Users/arturkondas/Desktop/git/agnostic-api/csharp/mongo/mongo/obj/Debug/netcoreapp2.2/mongo.RazorAssemblyInfo.cache
+/Users/arturkondas/Desktop/git/agnostic-api/csharp/mongo/mongo/obj/Debug/netcoreapp2.2/mongo.RazorAssemblyInfo.cs
+/Users/arturkondas/Desktop/git/agnostic-api/csharp/mongo/mongo/obj/Debug/netcoreapp2.2/mongo.AssemblyInfoInputs.cache
+/Users/arturkondas/Desktop/git/agnostic-api/csharp/mongo/mongo/obj/Debug/netcoreapp2.2/mongo.AssemblyInfo.cs
+/Users/arturkondas/Desktop/git/agnostic-api/csharp/mongo/mongo/obj/Debug/netcoreapp2.2/mongo.RazorTargetAssemblyInfo.cache
+/Users/arturkondas/Desktop/git/agnostic-api/csharp/mongo/mongo/obj/Debug/netcoreapp2.2/mongo.dll
+/Users/arturkondas/Desktop/git/agnostic-api/csharp/mongo/mongo/obj/Debug/netcoreapp2.2/mongo.pdb
