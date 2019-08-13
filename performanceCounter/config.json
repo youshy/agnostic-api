@@ -1,0 +1,56 @@
+{
+  {"api":
+    {"csharp":
+      {"host": "localhost",
+       "port": 3000
+      }
+    },
+    {"fsharp":
+      {"host": "localhost",
+       "port": 3000
+      }
+    },
+    {"golang":
+      {"host": "localhost",
+       "port": 3000
+      }
+    },
+   {"haskell":
+      {"host": "localhost",
+       "port": 3000
+      }
+    },
+   {"java":
+      {"host": "localhost",
+       "port": 3000
+      }
+    },
+   {"nodejs":
+      {"host": "localhost",
+       "port": 3000
+      }
+    },
+   {"php":
+      {"host": "localhost",
+       "port": 3000
+      }
+    },
+   {"python":
+      {"host": "localhost",
+       "port": 3000
+      }
+    },
+   {"ruby":
+      {"host": "localhost",
+       "port": 3000
+      }
+    },
+   {"rust":
+      {"host": "localhost",
+       "port": 3000
+      }
+    }
+  }
+}
+
+
