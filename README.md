@@ -1,8 +1,8 @@
 # Agnostic-api
 
-The idea about this repo is to create a lot of implementations of the same API in different languages. 
+Aka - create the same thing few times and check how fast it is. And then refactor and refactor again.
 
-But why, you might ask? Well, learning is way more fun if you have any context to it!
+I was curious if there's any difference between the same API implementation in different languages - therefore, I present to you **Agnostic API**! (I know, it might not be the best name ever).
 
 ## What is the model
 
