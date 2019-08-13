@@ -1,6 +1,6 @@
 # Performance counter
 
-This performance counter will be made using **Go** and **Python** (mostly because these are the most performance-wise best ones).
+This performance counter will be made using **Go** and **Python** (mostly because these are the most performance-wise best ones) and **JavaScript** (because I know it rather well, thus I guess it makes sense to build it in JS as well)
 
 ## Why?
 
