@@ -10,6 +10,20 @@ The initial model was only to test the Read/Write actions using the DB, but afte
 
 Therefore, small change of plans. There will be two APIs - one CRUD with DB (in this case **Mongo**), second one: **--To-Be-Updated--** probably get the request, kick off encryption on something and formulate JSON and return to the client.
 
+---
+
+# First API
+
+---
+
+
+
+---
+
+# Second API
+
+---
+
 ## What is the model
 
 model: **User**
@@ -34,6 +48,8 @@ Routes:
 
 Routes are specifically designed to not to use `Id`. This gives an extra flavour to the task as not often you have to look for something using two parameters in the route. Probably, in **phase V**, I will implement the API with `Id` as a param, not as a query.
 
+And yes, it's not truly RESTful. It's not the goal here though.
+
 ## Phases
 
 * **Phase I** - Implement the API using languages from table below with MongoDB connection.
@@ -52,32 +68,41 @@ To get all the phases done it'll probably take some time but - that's a long-ter
 
 There might be a case, that phases **I** - **III** will happen all at the same time - to monitor the performance from the very start. And also - phases might differ from language to language - it might happen, that writing CRUD API in one of the languages belwo might be impossible to do - then, the phases will move.
 
-## Languages used in this repo
+---
+
+# Languages used in this repo
 
 * Empty - not done
 * `I` - in progress
 * `X` - done
 
-| Language | MongoDb | PostgreSQL | Notes |
+## Major Players
+
+| Language | MongoDb | PostgreSQL | Encryption | Notes |
 |---|---|---|---|
-| NodeJS      | X |   |   |
-| Go          | X |   |   |
-| Python      | X |   |   | 
-| F#          | I |   | (Small issues) | 
-| Java        | X |   |   |   
-| C#          | I |   | (Basically done, unable to compile on my Mac) |
-| C++         |   |   |   |
-| Rust        | I |   |   |
-| PHP         | I |   |   |
-| Ruby        | I |   |   |
-| Haskell     |   |   |   |
-| Objective-C |   |   |   |
-| Clojure     |   |   |   |
-| Elixir      |   |   |   |
-| Scala       |   |   |   |
-| C           |   |   |   |
-| Lua         |   |   |   |
-| Julia         |   |   |   |
+| NodeJS      | X |   |   |   |
+| Go          | X |   |   |   |
+| Python      | X |   |   |   | 
+| Java        | X |   |   |   |   
+| C#          | I |   |   | (Basically done, unable to compile on my Mac) |
+
+## Second League
+
+| Language | MongoDb | PostgreSQL | Encryption | Notes |
+|---|---|---|---|
+| F#          | I |   |   | (Small issues) | 
+| C++         |   |   |   | (Will definitely move to big players pot) |
+| Rust        | I |   |   |   |
+| PHP         | I |   |   |   |
+| Ruby        | I |   |   |   |
+| Haskell     |   |   |   |   |
+| Objective-C |   |   |   |   |
+| Clojure     |   |   |   |   |
+| Elixir      |   |   |   |   |
+| Scala       |   |   |   |   |
+| C           |   |   |   |   |
+| Lua         |   |   |   |   |
+| Julia       |   |   |   |   |
 
 ## Can I add my own submission?
 
