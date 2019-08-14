@@ -4,6 +4,12 @@ Aka - create the same thing few times and check how fast it is. And then refacto
 
 I was curious if there's any difference between the same API implementation in different languages - therefore, I present to you **Agnostic API**! (I know, it might not be the best name ever).
 
+## Two APIs
+
+The initial model was only to test the Read/Write actions using the DB, but after a chat with a friend, I came to realisation, that this is rather stupid - the differences in performance won't be that big to even care (we'll see) and also - you can tweak the performance of each API to be superfast.
+
+Therefore, small change of plans. There will be two APIs - one CRUD with DB (in this case **Mongo**), second one: **--To-Be-Updated--** probably get the request, kick off encryption on something and formulate JSON and return to the client.
+
 ## What is the model
 
 model: **User**
