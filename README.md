@@ -79,7 +79,7 @@ There might be a case, that phases **I** - **III** will happen all at the same t
 ## Major Players
 
 | Language | MongoDb | PostgreSQL | Encryption | Notes |
-|---|---|---|---|
+|---|---|---|---|---|
 | NodeJS      | X |   |   |   |
 | Go          | X |   |   |   |
 | Python      | X |   |   |   | 
@@ -89,7 +89,7 @@ There might be a case, that phases **I** - **III** will happen all at the same t
 ## Second League
 
 | Language | MongoDb | PostgreSQL | Encryption | Notes |
-|---|---|---|---|
+|---|---|---|---|---|
 | F#          | I |   |   | (Small issues) | 
 | C++         |   |   |   | (Will definitely move to big players pot) |
 | Rust        | I |   |   |   |
